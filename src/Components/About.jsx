@@ -12,6 +12,14 @@ const About = () => {
   return (
     <div className="about-page">
       <h1>About Myself</h1>
+      <div className="myself">
+        <h3 className='text-justify m-3 text-secondary'>
+          <i>I am Hari Babu, an Indian with a chill personality, though I tend to overthink small things. My goal is to 
+            secure a job and lead a happy and prosperous life. Despite facing challenges in my childhood, my family's 
+            happiness now brings me immense joy. Once employed, I aspire to shoulder family responsibilities and fulfill 
+            my dream of ensuring my parents can finally rest, while also working towards making my father a respected figure in politics.</i>
+        </h3>
+      </div>
       {/* skills - techical and communication skills */}
       <h4 className='textCenter m-4'>Skills</h4>
       <div className="skills-block">
