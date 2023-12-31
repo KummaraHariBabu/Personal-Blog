@@ -1,0 +1,95 @@
+
+.main-Section1 {
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    background-color: TRANSPARENT;
+    margin: 10px 25px;    
+    font-size: 18px;
+    color: #4e280c;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 10px 10px 10px 0;
+    box-shadow: 2px 4px 10px 2px black;
+    filter: brightness(0.5);
+    padding: 10px 10px 0px 10px;
+
+}
+.main-Section1:hover {
+    transition: 0.25s;
+    transform:scale(1.2)
+}
+
+.main-Section1 ul {
+    list-style: none;
+    display: grid;
+    gap: 10px;
+
+}
+.main-navbar-section>img {
+    width: 100%;
+    height: 110vh;
+}   
+.sub-section-one {
+    width: 60%;
+    border-radius: 8px;
+    height: 250px;
+    position: absolute;
+    right: 10px;
+    bottom: -100px;
+    display: flex;
+    gap: 2px;
+    padding: 10px;
+    backdrop-filter: blur(3px);     
+    background: linear-gradient(180deg, #AC9A82,#AC9A82,#AC9A82,transparent);
+ }
+.sub-section-one .sub-section-images   {
+    width: 25%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.sub-importedIectionImages {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+ }
+.sub-section-images > img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    transition: scale 350ms ease, opacity 350ms linear;
+}
+
+.sub-section-one:has(.sub-importedIectionImages:hover) .sub-importedIectionImages:not(:hover) {
+    cursor: pointer;
+    scale: .8;
+    transition: all 0.3s ease-in-out; /* Smooth transition effect */
+    opacity: .7;
+
+   }
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    .main-Section1 {
+        font-size: 13px;
+        /* top: 125px; */
+        /* margin: 0; */
+        padding: 10px 10px 0px 10px;
+    }  
+    .main-navbar-section>img {
+        width: 100%;
+        height: 50vh;
+    }   
+
+    .sub-section-one {
+        width: 100%;
+        height: 200px;
+        right: 0;
+        background: linear-gradient(180deg, #AC9A82,#AC9A82,#AC9A82,#AC9A82,transparent);
+        border: none;
+        border-radius: 0;
+        position: none;
+     }
+    
+}

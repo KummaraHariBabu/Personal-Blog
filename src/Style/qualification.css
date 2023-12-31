@@ -1,0 +1,75 @@
+
+.qualification-page {
+    width: 100%;
+    background-color: #AC9A82;
+    height: auto;
+    padding: 10px;
+}
+.qualification-page table{
+    table-layout: fixed;
+    width: 100%;
+    font-size: 18px;
+    border-collapse: collapse;
+}
+.qualification-page table,tr,th,td{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+.certifications-block {
+    background-color: #445944;
+    margin: 10px 0;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    width: 50%;
+    transform: translate(50%, 0%);
+}
+li::marker {
+    content: '🖤';
+}
+.certifications-block li {
+    padding: 10px;
+}
+.about-eduaction {
+    width: 100%;
+    margin-top: 10px;
+}
+.about-eduaction .about {
+    display: flex;
+    gap: 35px;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+.about-eduaction img {
+    width: 200px;
+    height: 200px;    
+}
+.h4-text {
+    font-size: 18px;
+}
+.about-eduaction .about p{
+    font-size: 13px;
+    text-align: justify;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .qualification-page table{
+        font-size: 14px;
+     }
+    .certifications-block {
+        display: block;
+        font-size: 14px;
+     }
+    .about-eduaction .about {
+        display: inline-block;
+    }
+    .about-eduaction img {
+        width: 100%;
+    }
+    .h4-text {
+        font-size: 14px;
+    }
+    
+}

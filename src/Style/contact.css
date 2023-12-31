@@ -1,0 +1,55 @@
+.contact-page {
+    background-color: #AC9A82;
+    padding: 10px;
+ }
+.contact-info {
+    display: flex;
+    gap: 35px;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+.contact-info div:first-child {
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: forestgreen;
+}
+.contact-info i {
+    font-size: 60px;
+    color: #dcd3d3;
+}
+.contact-info p {
+    font-size: 13px;
+    text-align: justify;
+}
+.address {
+    background-color: #445944;
+    margin: 10px 10px 10px 10px ;
+    display: inline-block;
+    font-size: 16px;
+    width: 35%;
+    transform: translate(90%, 0%);
+    font-style: italic;
+    padding: 10px;
+
+}
+@media only screen and (min-width: 400px) and (max-width: 767px) {
+    .contact-info {
+        align-items: center;
+    }
+    .contact-info div:first-child {
+        padding: 0 10px;
+        height: 62px;
+    }   
+    .contact-info i {
+        font-size: 40px;
+        color: #dcd3d3;
+    }
+    .address {
+        width: 100%;
+        transform: translate(0);
+        font-size: 13px;
+        margin: 0;
+    }
+
+}

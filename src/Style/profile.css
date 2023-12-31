@@ -1,0 +1,21 @@
+.profile-page {
+    width: 100%;
+    background-color: #AC9A82;
+    height: auto;
+    padding: 10px;
+}
+.profile-links {
+    background-color: #445944;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px 20px;
+    padding: 20px 20px;
+}
+.profile-links a  {
+    color: #AC9A82;
+    font-size: 30px;
+    text-decoration: none;
+}
+.span-Text {
+    font-size: 18px;
+}
