@@ -2,6 +2,10 @@ import React from 'react'
 import "../Style/about.css"
 import dreamjob from "../Assets/dreamjob.jpg";
 import dreamhouse from "../Assets/dreamhouse.jpg";
+import volleyball from "../Assets/volleyball.jpg";
+import kabaddi from "../Assets/kabaddi.jpg";
+import music from "../Assets/music.png";
+import mahabharath from "../Assets/mahabharath.jpg";
 
 
 const About = () => {
@@ -70,6 +74,66 @@ const About = () => {
           </div>
         </div>
       </div>
+              
+      {/* Hobbies */}
+      <h4 className='textCenter m-4'>Hobbies</h4>
+      <div className="hobbies-block">
+          <h4 className='text-center text-secondary text-decoration-underline h4-text'>Volleyball</h4>
+          <div className="hobbies volleyball">
+            <div>
+              <img src={volleyball} alt="" />
+            </div>
+            <div>
+              <p>
+                Volleyball is my favorite game, and I actively contribute as a booster to enhance the playing experience.
+                As a volleyball enthusiast and booster, you likely appreciate the teamwork, skill, and strategy involved in this 
+                exciting sport. Whether playing casually with friends or following professional matches, volleyball provides 
+                a thrilling and competitive experience for players and fans alike.
+              </p>
+            </div>
+          </div>
+          <h4 className='text-center text-secondary text-decoration-underline h4-text'>Kabaddi</h4>
+          <div className="hobbies kabaddi">
+            <div>
+              <img src={kabaddi} alt="" />
+            </div>
+            <div>
+              <p>
+              In kabaddi, I thrive as an all-rounder, showcasing versatility both in attack and defense. Kabaddi is 
+              a traditional team sport that originated in ancient India and is now played and enjoyed in various forms globally. 
+              The game involves two teams competing against each other with the objective of scoring points by tagging or touching members of the opposing team. 
+              </p>
+            </div>
+          </div>
+          <h4 className='text-center text-secondary text-decoration-underline h4-text'>Music</h4>
+          <div className="hobbies music">
+            <div>
+              <img src={music} alt="" />
+            </div>
+            <div>
+              <p>
+                Listening to music brings me profound peace of mind. Nowadays, I find solace in falling asleep to 
+                music daily, with my current playlist dominated by Salaar songs. Among them, <audio src="">"Soorede"</audio> "Soorede" holds a special place 
+                as my favorite track. The unique capability of music, especially these Salaar songs, serves as a powerful remedy for stress and anxiety in my life.
+              </p>
+            </div>
+          </div>
+          <h4 className='text-center text-secondary text-decoration-underline h4-text'>Mahabharatham</h4>
+          <div className="hobbies mahabharth">
+            <div>
+              <img src={mahabharath} alt="" />
+            </div>
+            <div>
+              <p>
+                Watching Mahabharatham was a profound and mind-blowing experience, blessing me with valuable lessons on behavior,
+                 compassion, and the significance of treating others with respect. It emphasizes the importance of understanding 
+                 the complexities of life, as depicted in the epic Kurukshetra war. Among the many characters, Bheeshma's selfless 
+                 sacrifice, despite losing everything for the sake of his father, resonates deeply with me. Mahabharatham, with its 
+                 timeless messages, serves as a source of wisdom and enlightenment for everyone and and I am proud to say that I am Indian.
+              </p>
+            </div>
+          </div>  
+        </div>
     </div>
  
   )

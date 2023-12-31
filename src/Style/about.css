@@ -34,6 +34,25 @@
     padding: 5px 25px;
     font-size: 15px;
 }
+.hobbies-block {
+    padding: 10px;
+    margin: 20px 50px;
+    border: 1px solid;
+}
+.hobbies {
+    display: flex;
+    gap: 35px;
+    margin: 10px;
+    padding: 20px;
+    border-bottom: 1px solid;
+    font-size: 13px;
+    text-align: justify;
+}
+.hobbies div img {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
 @media only screen and (max-width: 767px) {
     .goals-block {
         padding: 10px;
@@ -56,6 +75,18 @@
     .list-unstyled li{
         display: flow;
         padding: 5px;
+    }
+    .hobbies-block {
+        padding: 10px;
+        margin: 10px 15px;
+    }
+    .hobbies {
+        display: inline-grid;
+        gap: 10px;
+        
+    }
+    .hobbies div img {
+        width: 100%;
     }
 
 }
