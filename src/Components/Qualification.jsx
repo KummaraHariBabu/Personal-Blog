@@ -37,9 +37,11 @@ const Qualification = () => {
 
         <div className="certifications-block">
             <h4 className='text-center text-decoration-underline'><i>CERTIFICATIONS</i></h4>
-            <li><i>Course : Java Full-Stack Development</i></li>
-            <li><i>Institute : JSpiders</i></li>
-            <li><i>Duration : 9 Months(Oct22 - June23)</i></li>
+            <ul className="list-items">
+                <li><i>Course : Java Full-Stack Development</i></li>
+                <li><i>Institute : JSpiders</i></li>
+                <li><i>Duration : 9 Months(Oct22 - June23)</i></li>
+            </ul>
         </div>
         <div className="about-eduaction">
         <h4 className='text-center text-secondary text-decoration-underline h4-text'>Priyadarshini Institute of Technology and Management(Guntur)</h4>

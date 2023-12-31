@@ -12,7 +12,7 @@ const Section1 = () => {
         <div className="main-navbar-section">
             <img src={fullImg} alt="" />
             <div className="main-Section1">
-                <ul className='Section1-list'>
+                <ul className='Section1-list list-items'>
                     <li>Name: {arr[0]}</li>
                     <li>Age: {arr[1]}</li>
                     <li>Gender: {arr[2]}</li>

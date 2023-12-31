@@ -25,7 +25,7 @@
     width: 50%;
     transform: translate(50%, 0%);
 }
-li::marker {
+.list-items li::marker {
     content: '🖤';
 }
 .certifications-block li {
