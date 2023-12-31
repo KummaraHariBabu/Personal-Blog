@@ -38,7 +38,7 @@
     }
     .navbar-expand-lg .navbar-nav {
         justify-content: space-evenly;
-        padding: 0 10px 0 10px;
+        /* width: 100%; */
         gap: 20px;
         font-size: 13px;
     }
