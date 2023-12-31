@@ -54,12 +54,14 @@ li::marker {
     text-align: justify;
 }
 
-@media only screen and (min-width: 400px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .qualification-page table{
         font-size: 14px;
      }
     .certifications-block {
         display: block;
+        width: 100%;
+        transform: translate(0);
         font-size: 14px;
      }
     .about-eduaction .about {

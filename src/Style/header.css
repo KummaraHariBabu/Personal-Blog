@@ -32,7 +32,7 @@
     width: 200px;
     mix-blend-mode: multiply;
 }
-@media only screen and (min-width: 400px) and (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .navbar-expand-lg {
         filter: blur(0);
     }
