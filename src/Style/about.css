@@ -1,0 +1,41 @@
+.about-page{
+    padding: 10px;
+    background-color: #AC9A82;
+}
+.goals-block {
+    padding: 20px;
+    margin: 20px 50px;
+    border: 1px solid;
+}
+.goal {
+    display: flex;
+    gap: 35px;
+    margin: 10px 10px 10px 10px;
+    border-bottom: 1px solid;
+    padding: 10px;
+    text-align: justify;
+    font-size: 13px;
+}
+.goal img{
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+}
+.goal img:hover{
+    scale: 1.1;
+    overflow: hidden;
+    transition: all 0.25s;
+}
+@media only screen and (max-width: 767px) {
+    .text-center {
+        display: initial;
+        padding: 0 20px;    }
+    .goal {
+        display: inline-grid;
+        gap: 10px;
+    }
+    .goal img{
+        width: 100%;
+    }
+
+}

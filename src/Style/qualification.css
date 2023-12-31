@@ -44,7 +44,8 @@ li::marker {
 }
 .about-eduaction img {
     width: 200px;
-    height: 200px;    
+    height: 200px;   
+    border-radius: 8px; 
 }
 .h4-text {
     font-size: 18px;
