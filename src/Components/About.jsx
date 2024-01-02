@@ -142,6 +142,19 @@ const About = () => {
             </div>
           </div>  
         </div>
+        <div className="projects-page">
+          <div className="projects">
+            <div className="projects-one">
+              <div>
+               </div>
+              <div>
+                <p>
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
  
   )
